@@ -30,7 +30,6 @@ class PercentageActivity : AppCompatActivity() {
             calculateAndShowGrades()
         }
     }
-
     private fun calculateAndShowGrades() {
         val correctEditTexts = arrayOf(
             findViewById<EditText>(R.id.correct1),
